@@ -110,3 +110,13 @@ verilen bir stringi belirli bir dosya tanıtıcısına yazar ve ardından bir ye
 
 ft_putnbr_fd -> Bu fonksiyon, belirli bir dosya tanıtıcısına (file descriptor) bir tamsayıyı yazar.
 verilen bir tamsayıyı belirtilen dosya tanıtıcısına yazar. Pozitif ve negatif sayılar için uygun şekilde çalışır.
+
+ft_lstnew: Yeni bir liste elemanı oluşturur.
+ft_lstadd_front: Yeni elemanı listenin başına ekler.
+ft_lstsize: Listenin boyutunu döndürür.
+ft_lstlast: Listenin son elemanını döndürür.
+ft_lstadd_back: Yeni elemanı listenin sonuna ekler.
+ft_lstdelone: Bir elemanı siler.
+ft_lstclear: Listeyi tamamen temizler.
+ft_lstiter: Listenin her bir elemanı üzerinde bir fonksiyon çalıştırır.
+ft_lstmap: Listeyi haritalar (her elemanı işleme tabi tutar).
